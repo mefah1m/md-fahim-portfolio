@@ -1,15 +1,12 @@
 {
-  "name": "personal-portfolio",
-  "version": "0.1.0",
+  "name": "md-fahim-portfolio",
+  "version": "1.0.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+  "engines": {
+    "node": ">=20 <25"
   },
-  "dependencies": {
-    "next": "^16.4.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
   }
 }
